@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Optician Sans';
+  src: url('{{ "/assets/fonts/Optician-Sans.woff2" | relative_url }}') format('woff2'),
+       url('{{ "/assets/fonts/Optician-Sans.woff"  | relative_url }}') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Optician Sans', sans-serif;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   max-width: 900px;
