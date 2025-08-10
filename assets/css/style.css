@@ -6,14 +6,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use Montserrat for normal text */
 body {
-  font-family: 'Optician Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   max-width: 900px;
   margin: auto;
   padding: 20px;
   background-color: #fafafa;
   color: #222;
   line-height: 1.6;
+}
+
+/* Keep Optician Sans for headings and navigation */
+h1, h2, h3, header nav a {
+  font-family: 'Optician Sans', sans-serif;
 }
 
 header {
