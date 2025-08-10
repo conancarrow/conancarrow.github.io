@@ -6,7 +6,7 @@ title: Photography
 ## Digital
 
 <div class="gallery">
-  <a href="#img1"><img src="{{ '/assets/images/door1-thumbnail.png' | relative_url }}" alt="Digital photo"></a>
+  <a href="#img1"><img src="{{ '/assets/images/door1-thumbnail.jpg' | relative_url }}" alt="Digital photo"></a>
 </div>
 
 <div id="img1" class="modal">
@@ -16,7 +16,7 @@ title: Photography
 ## Film
 
 <div class="gallery">
-  <a href="#img2"><img src="{{ '/assets/images/pipe1-thumbnail.jpg' | relative_url }}" alt="Film photo"></a>
+  <a href="#img2"><img src="{{ '/assets/images/pipe1-thumbnail.png' | relative_url }}" alt="Film photo"></a>
 </div>
 
 <div id="img2" class="modal">
