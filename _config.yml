@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: Colin Oscar Nancarrow's homepage
-description: Work in progress
+title: "Colin Oscar Nancarrow"
+description: "Personal website"
+theme: null
+markdown: kramdown
+permalink: pretty
