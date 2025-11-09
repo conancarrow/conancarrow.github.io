@@ -1,0 +1,23 @@
+{%- comment -%}
+MathJax v2 config include.
+Use by adding {% include mathjax-v2.html %} inside <head>.
+If you prefer only to load on pages with math, wrap this include in a conditional
+or add `math: true` to the page/post front matter.
+{%- endcomment -%}
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      skipTags: ['script','noscript','style','textarea','pre','code'],
+      processEscapes: true
+    },
+    "HTML-CSS": { linebreaks: { automatic: true } }
+  });
+</script>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  async>
+</script>
+
