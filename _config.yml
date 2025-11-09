@@ -3,3 +3,7 @@ description: "Personal website"
 theme: null
 markdown: kramdown
 permalink: pretty
+collections:
+  posts:
+    output: true
+
