@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First Entry"
+math: true
 ---
 
 Einstein’s equation: $E = mc^2$.
